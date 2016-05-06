@@ -140,7 +140,7 @@ app.post('/register', function(req, res) {
     newUser.save(function(err, savedUser) {
         if (err) {
             console.log(err);
-            return res.status(500);
+            return res.status(400).send('Invalid Info');
         }
 
         return res.status(200).send('Success');
