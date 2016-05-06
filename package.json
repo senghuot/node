@@ -19,6 +19,7 @@
     "mongodb": "^2.1.18",
     "mongoose": "^4.4.15",
     "node-geocoder": "^3.9.1",
+    "should": "^8.3.1",
     "supertest": "^1.2.0"
   }
 }
