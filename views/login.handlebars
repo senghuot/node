@@ -1,0 +1,15 @@
+<div id="signInForm" class="col-sm-6 col-sm-offset-3">
+    <h3 class="form-signin-heading text-center">Log into SkyCast</h3>
+    <form class="form-signin" role="form" action="/login" method="POST">
+        <input type="text" class="form-control margin-bottom" placeholder="Email address" name="email" required autofocus="">
+        <input type="password" class="form-control margin-bottom" placeholder="Password" name="password" required>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        <a href="/register" class="btn btn-lg btn-info btn-block" role="button">Register</a>
+    </form>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $('#signInForm').formValidation();
+    });
+</script>

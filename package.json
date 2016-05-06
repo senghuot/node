@@ -1,0 +1,24 @@
+{
+  "name": "skycast",
+  "version": "1.0.0",
+  "description": "A disruptive new weather data startup",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha tests/"
+  },
+  "author": "Senghuot(Scott) Lim",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "chai": "^3.5.0",
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.13.0",
+    "forecast.io": "0.0.9",
+    "formidable": "^1.0.17",
+    "mocha": "^2.4.5",
+    "mongodb": "^2.1.18",
+    "node-geocoder": "^3.9.1",
+    "supertest": "^1.2.0"
+  }
+}
