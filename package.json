@@ -15,9 +15,9 @@
     "express-handlebars": "^3.0.0",
     "express-session": "^1.13.0",
     "forecast.io": "0.0.9",
-    "formidable": "^1.0.17",
     "mocha": "^2.4.5",
     "mongodb": "^2.1.18",
+    "mongoose": "^4.4.15",
     "node-geocoder": "^3.9.1",
     "supertest": "^1.2.0"
   }
