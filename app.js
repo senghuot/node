@@ -23,7 +23,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(session({secret: "eaaeuadfauenziedaf123aj", resave: false, saveUninitialized: true}));
 app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 9000);
 app.disable('x-powered-by');
 
 
